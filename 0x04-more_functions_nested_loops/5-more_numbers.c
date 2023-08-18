@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * more_numbres - print them
+ * more_numbers - print them
  */
-void more_numbres(void)
+void more_numbers(void)
 {
 	int i, j;
 
