@@ -7,13 +7,13 @@
  */
 char *string_toupper(char *n)
 {
-	while (*n)
+	int i;
+
+	while (n[i] != '\0')
 	{
-		if (islower(*n))
-		{
-			*n = toupper(*n);
-		}
-		n++;
+		if (n[i] >= 'a' && n[i] <= 'z')
+			n[i] = n[i] - 32;
+		i++;
 	}
 	return (n);
 }
