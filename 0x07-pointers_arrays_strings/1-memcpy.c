@@ -4,7 +4,7 @@
  * @dest: pointer
  * @src: pointer source
  * @n: int
- * Return: char
+ * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -16,5 +16,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest[C] = src[C];
 		C++;
 	}
+
 	return (dest);
 }
